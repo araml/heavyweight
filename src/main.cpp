@@ -1,7 +1,8 @@
 #include <cstdio>
+#include <fat12.h>
 
 int main(int argv, char *argc[]) {
-    printf("Hello world");
+    fat12 fs("test.txt");
     return 0;
 }
 
